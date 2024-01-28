@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Shrutibuyre/myportfolio.git/static/css/main.dfe3c8fa.css",
+    "main.js": "/Shrutibuyre/myportfolio.git/static/js/main.e685ba9a.js",
+    "static/js/872.9741fcd8.chunk.js": "/Shrutibuyre/myportfolio.git/static/js/872.9741fcd8.chunk.js",
+    "static/js/227.80011de8.chunk.js": "/Shrutibuyre/myportfolio.git/static/js/227.80011de8.chunk.js",
+    "static/js/526.1cba75ea.chunk.js": "/Shrutibuyre/myportfolio.git/static/js/526.1cba75ea.chunk.js",
+    "static/js/232.c4a7ee03.chunk.js": "/Shrutibuyre/myportfolio.git/static/js/232.c4a7ee03.chunk.js",
+    "static/js/237.92392b3b.chunk.js": "/Shrutibuyre/myportfolio.git/static/js/237.92392b3b.chunk.js",
+    "static/media/thumb-this-portfolio.png": "/Shrutibuyre/myportfolio.git/static/media/thumb-this-portfolio.4d43591e8f04526a1e23.png",
+    "static/media/thumb-netflix.png": "/Shrutibuyre/myportfolio.git/static/media/thumb-netflix.eee79548cf7cd7f7e1f2.png",
+    "static/media/thumb-keepers-app.png": "/Shrutibuyre/myportfolio.git/static/media/thumb-keepers-app.ede53f10ab6c34241672.png",
+    "static/media/thumb-simon-says.png": "/Shrutibuyre/myportfolio.git/static/media/thumb-simon-says.b66b848923be2e08337c.png",
+    "static/media/shruti.jpg": "/Shrutibuyre/myportfolio.git/static/media/shruti.a17eb7ec546e4c6df505.jpg",
+    "index.html": "/Shrutibuyre/myportfolio.git/index.html",
+    "main.dfe3c8fa.css.map": "/Shrutibuyre/myportfolio.git/static/css/main.dfe3c8fa.css.map",
+    "main.e685ba9a.js.map": "/Shrutibuyre/myportfolio.git/static/js/main.e685ba9a.js.map",
+    "872.9741fcd8.chunk.js.map": "/Shrutibuyre/myportfolio.git/static/js/872.9741fcd8.chunk.js.map",
+    "227.80011de8.chunk.js.map": "/Shrutibuyre/myportfolio.git/static/js/227.80011de8.chunk.js.map",
+    "526.1cba75ea.chunk.js.map": "/Shrutibuyre/myportfolio.git/static/js/526.1cba75ea.chunk.js.map",
+    "232.c4a7ee03.chunk.js.map": "/Shrutibuyre/myportfolio.git/static/js/232.c4a7ee03.chunk.js.map",
+    "237.92392b3b.chunk.js.map": "/Shrutibuyre/myportfolio.git/static/js/237.92392b3b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfe3c8fa.css",
+    "static/js/main.e685ba9a.js"
+  ]
+}
