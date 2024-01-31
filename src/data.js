@@ -2,12 +2,12 @@ import {
   IoCodeWorking,
   IoLogoGithub,
   IoLogoLinkedin,
-  IoLogoWhatsapp,
+  IoMail, 
 } from "react-icons/io5";
 import img1 from "./images/thumb-keepers-app.png";
 import img2 from "./images/thumb-simon-says.png";
 import img3 from "./images/thumb-netflix.png";
-import img6 from "./images/thumb-this-portfolio.png";
+import img4 from "./images/thumb-this-portfolio.png";
 
 export const Experience = [
   {
@@ -20,9 +20,6 @@ export const Experience = [
     description:
       "Enthusiastic and detail-oriented web developer with a strong foundation in front-end and back-end technologies, eager to contribute technical expertise and collaborate on innovative projects.",
   },
- 
- 
- 
 ];
 
 export const Projects = [
@@ -47,12 +44,11 @@ export const Projects = [
     techs: "HTML, CSS, Javascript",
     github: "netflix-staring-ui.netlify.app/",
   },
- 
- 
+
   {
     id: 6,
     name: "This portfolio",
-    imageSrc: img6,
+    imageSrc: img4,
     techs: "React.js, Firebase Auth",
     github: "#",
   },
@@ -65,8 +61,7 @@ export const SocialLinks = [
     name: "GitHub",
     link: "https://github.com/Shrutibuyre",
   },
-  
-  
+
   {
     id: 1,
     iconSrc: (
@@ -78,9 +73,9 @@ export const SocialLinks = [
   {
     id: 1,
     iconSrc: (
-      <IoLogoWhatsapp className="text-green-500 text-3xl cursor-pointer" />
+      <IoMail className="text-red-600 text-3xl cursor-pointer" /> 
     ),
-    name: "Whatsapp",
-    link: "#",
+    name: "Email",
+    link: "shrutibuyre11@gmail.com", 
   },
 ];
