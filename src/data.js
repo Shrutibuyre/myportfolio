@@ -35,22 +35,22 @@ export const Projects = [
     name: "Simon Says ",
     imageSrc: img2,
     techs: "React Js",
-    github: "simonsays1111.netlify.app/",
+    github: "https://github.com/Shrutibuyre/simon-says.git",
   },
   {
     id: 3,
     name: "Netflix Clone",
     imageSrc: img3,
     techs: "HTML, CSS, Javascript",
-    github: "netflix-staring-ui.netlify.app/",
+    github: "https://github.com/Shrutibuyre/netflix-start-Ui.git",
   },
 
   {
     id: 6,
     name: "This portfolio",
     imageSrc: img4,
-    techs: "React.js, Firebase Auth",
-    github: "#",
+    techs: "React.js, tailwind",
+    github: "https://github.com/Shrutibuyre/myportfolio.git",
   },
 ];
 
