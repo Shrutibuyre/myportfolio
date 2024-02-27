@@ -12,10 +12,23 @@ import { AnimatePresence, motion } from "framer-motion";
 
 function App() {
   const [isActive, setIsActive] = useState(false);
+
+  // Function to handle resume download
+  const handleDownloadResume = () => {
+    const resumeFile = "/pdf/shrutiresume.pdf";
+    const link = document.createElement("a");
+
+    link.href = resumeFile;
+    link.download = "shrutiresume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <AnimatePresence initial={false}>
       <div className="flex w-screen min-h-screen flex-col items-center justify-center relative bg-primary pb-20">
-        <nav className="w-full px-6 z-50  fixed inset-x-0 top-2 flex justify-center items-center ">
+        <nav className="w-full px-6 z-50 fixed inset-x-0 top-2 flex justify-center items-center ">
           <div className=" w-full md:w-880 bg-navBar p-4 rounded-2xl flex items-center">
             <p className="text-lg text-slate-200 font-medium">Shruti Buyre</p>
 
@@ -47,6 +60,10 @@ function App() {
               <a
                 href="#"
                 className="ml-auto text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
+                onClick={(e) => {
+                  e.preventDefault(); // Prevent default behavior of anchor tag
+                  handleDownloadResume();
+                }}
               >
                 Download
               </a>
@@ -96,9 +113,12 @@ function App() {
                   Contact
                 </a>
                 <a
-                  href="#"
+                  href="./pdf/shrutiresume.pdf"
                   className="text-base text-textBase font-medium hover:text-slate-100 cursor-pointer border border-textBase px-2 py-1 rounded-xl hover:border-gray-100 duration-100 ease-in"
-                  onClick={() => setIsActive(false)}
+                  onClick={(e) => {
+                    e.preventDefault(); // Prevent default behavior of anchor tag
+                    handleDownloadResume();
+                  }}
                 >
                   Download
                 </a>
@@ -132,8 +152,9 @@ function App() {
             </div>
             <div className="w-full h-420 flex flex-col items-center justify-center ">
               <p className="text-lg text-textBase text-center">
-                Seeking an opportunity to utilize my knowledge and skills in the area of information
-                Technology and looking forword to enriching experience and professional.
+                Seeking an opportunity to utilize my knowledge and skills in the
+                area of information Technology and looking forword to enriching
+                experience and professional.
               </p>
 
               <button class="w-full md:w-auto relative mt-6 inline-flex items-center justify-center p-0.5 mb-2 mr-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-green-400 to-blue-600 group-hover:from-green-400 group-hover:to-blue-600 hover:text-white dark:text-white focus:ring-4 focus:ring-green-200 dark:focus:ring-green-800 hover:shadow-lg hover:shadow-teal-500/50 hover:dark:shadow-lg hover:dark:shadow-teal-800/80">
