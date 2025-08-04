@@ -35,7 +35,7 @@ const Portfolio: React.FC = () => {
     },
     {
       id: 2,
-      title: 'Task Management Dashboard',
+      title: 'Airbnb (Travel & Listing)',
       description: 'React-based dashboard application with real-time updates, drag-and-drop functionality, and responsive design.',
       image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=500',
       category: 'development',
@@ -53,7 +53,7 @@ const Portfolio: React.FC = () => {
     },
     {
       id: 4,
-      title: 'Weather Progressive Web App',
+      title: 'Zerodha (Investing & Stock Prices)',
       description: 'PWA built with React and OpenWeather API, featuring offline functionality and responsive design.',
       image: 'https://images.pexels.com/photos/1162251/pexels-photo-1162251.jpeg?auto=compress&cs=tinysrgb&w=500',
       category: 'development',
@@ -71,8 +71,17 @@ const Portfolio: React.FC = () => {
     },
     {
       id: 6,
-      title: 'Portfolio Website',
-      description: 'Personal portfolio website built with React, featuring smooth animations and responsive design.',
+      title: 'ChatGPT (OpenAI API integration)',
+      description: 'Personal ChatGPT (OpenAI API integration) built with React, featuring smooth animations and responsive design.',
+      image: 'https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&w=500',
+      category: 'development',
+      technologies: ['React', 'TypeScript', 'Framer Motion'],
+      links: { live: '#', github: '#' }
+    },
+    {
+      id: 6,
+      title: 'Linkedin (Social Media)',
+      description: 'Personal Linkedin (Social Media) built with React, featuring smooth animations and responsive design.',
       image: 'https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&w=500',
       category: 'development',
       technologies: ['React', 'TypeScript', 'Framer Motion'],
